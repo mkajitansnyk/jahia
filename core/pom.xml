@@ -108,7 +108,7 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
-            <version>1.3.3</version>
+            <version>1.5</version>
         </dependency>
         <dependency>
             <groupId>commons-id</groupId>
@@ -1955,7 +1955,7 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="${git.commit.id.abbrev}" file="${project.build.directory}/classes/META-INF/jahia-impl-marker.txt" />
+                                <echo message="${git.commit.id.abbrev}" file="${project.build.directory}/classes/META-INF/jahia-impl-marker.txt"/>
                             </target>
                         </configuration>
                     </execution>
