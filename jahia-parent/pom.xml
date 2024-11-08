@@ -77,7 +77,7 @@
         <lucene.version>3.6.2</lucene.version>
         <jbpm.version>6.0.0.Final</jbpm.version>
         <jbpm.version.jahia>${jbpm.version}-jahia</jbpm.version.jahia>
-        <drools.version>${jbpm.version}</drools.version>
+        <drools.version>8.29.0.Final</drools.version>
         <hibernate.version>5.5.3.Final</hibernate.version>
         <hibernate.core.version>5.5.3.Final</hibernate.core.version>
         <hibernate.validator.version>6.2.0.Final</hibernate.validator.version>
@@ -618,32 +618,32 @@
                             <checkstyleRules>
                                 <module name="Checker">
                                     <module name="TreeWalker">
-                                        <module name="JavadocType" />
+                                        <module name="JavadocType"/>
                                         <module name="JavadocMethod">
-                                            <property name="scope" value="public" />
-                                            <property name="allowMissingPropertyJavadoc" value="true" />
+                                            <property name="scope" value="public"/>
+                                            <property name="allowMissingPropertyJavadoc" value="true"/>
                                         </module>
-                                        <module name="UnusedImports" />
+                                        <module name="UnusedImports"/>
                                         <module name="ConstantName">
-                                            <property name="applyToProtected" value="false" />
-                                            <property name="applyToPackage" value="false" />
-                                            <property name="applyToPrivate" value="false" />
+                                            <property name="applyToProtected" value="false"/>
+                                            <property name="applyToPackage" value="false"/>
+                                            <property name="applyToPrivate" value="false"/>
                                         </module>
                                         <module name="EmptyBlock">
-                                            <property name="option" value="text" />
+                                            <property name="option" value="text"/>
                                         </module>
-                                        <module name="NeedBraces" />
-                                        <module name="EqualsHashCode" />
+                                        <module name="NeedBraces"/>
+                                        <module name="EqualsHashCode"/>
                                         <module name="MagicNumber">
-                                            <property name="ignoreNumbers" value=" -1, 0, 1, 2, 17, 31, 37" />
+                                            <property name="ignoreNumbers" value=" -1, 0, 1, 2, 17, 31, 37"/>
                                         </module>
-                                        <module name="SimplifyBooleanReturn" />
+                                        <module name="SimplifyBooleanReturn"/>
                                         <module name="IllegalCatch">
-                                            <property name="illegalClassNames" value=" java.lang.Throwable" />
+                                            <property name="illegalClassNames" value=" java.lang.Throwable"/>
                                         </module>
-                                        <module name="MultipleVariableDeclarations" />
-                                        <module name="OneStatementPerLine" />
-                                        <module name="RedundantModifier" />
+                                        <module name="MultipleVariableDeclarations"/>
+                                        <module name="OneStatementPerLine"/>
+                                        <module name="RedundantModifier"/>
                                     </module>
                                 </module>
                             </checkstyleRules>
