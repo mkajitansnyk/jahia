@@ -1132,7 +1132,7 @@
         <dependency>
             <groupId>org.graalvm.sdk</groupId>
             <artifactId>graal-sdk</artifactId>
-            <version>21.0.0.2</version>
+            <version>21.3.13</version>
         </dependency>
 
         <!-- JSON dependencies -->
@@ -1955,7 +1955,7 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="${git.commit.id.abbrev}" file="${project.build.directory}/classes/META-INF/jahia-impl-marker.txt" />
+                                <echo message="${git.commit.id.abbrev}" file="${project.build.directory}/classes/META-INF/jahia-impl-marker.txt"/>
                             </target>
                         </configuration>
                     </execution>
